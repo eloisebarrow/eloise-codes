@@ -1,0 +1,9 @@
+.header-nav {
+  display: flex;
+  justify-content: center;;
+}
+
+.header-nav li {
+  list-style: none;
+  margin-right: 6%;
+}
