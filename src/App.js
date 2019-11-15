@@ -5,6 +5,7 @@ import ProgressBar from './components/ProgressBar';
 import Effect from './components/Effect'; // useEffect counter example
 import ReactPlayerComp from './components/ReactPlayerComp'; // embed a video
 import Form from './components/Form';
+import Formik from './components/Formik';
 
 export default class App extends Component {
   constructor(props) {
@@ -38,10 +39,11 @@ export default class App extends Component {
       <div className="App">
         {/* <HorizontalScroll />
         <ProgressBar /> */}
-        <Form
+        {/* <Form
           formData={this.state.formData}
           handleChange={this.handleChange}
-          handleSubmit={this.handleSubmit} />
+          handleSubmit={this.handleSubmit} /> */}
+          <Formik />
       </div>
     );
   }
