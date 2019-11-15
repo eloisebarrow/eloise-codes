@@ -1,6 +1,7 @@
 // ALL CODE FROM FORMIK EXAMPLE
 import React from 'react';
 import { Formik, Form, Field, ErrorMessage } from 'formik';
+import './Formik.css';
 
 const Basic = () => (
   <div>
