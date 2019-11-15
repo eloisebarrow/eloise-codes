@@ -2,16 +2,16 @@ import React from 'react';
 import './App.css';
 import HorizontalScroll from './components/HorizontalScroll';
 import ProgressBar from './components/ProgressBar';
-import Effect from './components/Effect';
-import ReactPlayerComp from './components/ReactPlayerComp';
+import Effect from './components/Effect'; // useEffect counter example
+import ReactPlayerComp from './components/ReactPlayerComp'; // embed a video
+import Form from './components/Form';
 
 function App() {
   return (
     <div className="App">
-      {/* <HorizontalScroll /> */}
-      {/* <ProgressBar /> */}
-      {/* <Effect /> */}
-      <ReactPlayerComp />
+      {/* <HorizontalScroll />
+      <ProgressBar /> */}
+      <Form />
     </div>
   );
 }
